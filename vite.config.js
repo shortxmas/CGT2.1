@@ -12,7 +12,7 @@
 //     alias: {
 //       '@': fileURLToPath(new URL('./src', import.meta.url))
 //     }
-//   }
+//   }rawr
 // })
 
 import { fileURLToPath, URL } from 'node:url'
