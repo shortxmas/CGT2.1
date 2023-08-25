@@ -1,4 +1,4 @@
-<script >
+<script>
 import { ref } from 'vue';
 
 function input (name,val)
