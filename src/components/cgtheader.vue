@@ -8,7 +8,8 @@
   <div class="navbar navbar-expand-lg navbar-light  bg-light">
     <div class="container">
       <a class="navbar-brand" style="color: #5f91bb;">
-        <h2>collegegradetool.com</h2>
+        
+        <RouterLink to="/" class="nav-item"><a class="nav-link"><h2 style="color: #5f91bb;">collegegradetool.com</h2></a></RouterLink>
 
       </a>
       <button class="navbar-toggler" data-bs-toggle = "collapse"
