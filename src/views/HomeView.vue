@@ -6,9 +6,6 @@ import Gpa from '../components/gpa.vue';
 import Final from '../components/final.vue';
 
 
-
- 
-
   export default 
   {
     data() {
@@ -19,7 +16,7 @@ import Final from '../components/final.vue';
         };
     },
     components: { Grade, Gpa, Final }
-};
+  };
 </script>
 
 <template>

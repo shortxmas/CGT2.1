@@ -67,43 +67,43 @@ export default{
       }
 
       return ret;
-    },
-    letter(pg)
-    {
-      if(pg>=90)
-  {
-    if(pg>=97)
-    {
-      return "A+"
+      },
+      letter(pg)
+      {
+        if(pg>=90)
+      {
+      if(pg>=97)
+      {
+        return "A+"
 
-    }
-    else if(pg>=93)
-    {
-      return "A"
-    }
-    else
-    {
-      return "A-"
-    }
+      }
+      else if(pg>=93)
+      {
+        return "A"
+      }
+      else
+      {
+        return "A-"
+      }
 
 
-  }
-  else if(pg>=80)
-  {
-    if(pg>=87)
-    {
-      return "B+"
+        }
+      else if(pg>=80)
+      {
+        if(pg>=87)
+        {
+          return "B+"
 
-    }
-    else if(pg>=83)
-    {
-      return "B"
-    }
-    else
-    {
-      return "B-"
-    }
-  }
+        }
+        else if(pg>=83)
+        {
+          return "B"
+        }
+        else
+        {
+          return "B-"
+        }
+      }
   else if(pg>=70)
   {
     if(pg>=77)
