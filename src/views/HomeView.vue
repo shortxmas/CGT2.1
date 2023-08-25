@@ -1,9 +1,9 @@
 <script>
 
 
-import Grade from '../components/grade.vue'
-import Gpa from '../components/gpa.vue';
-import Final from '../components/final.vue';
+import grade from '../components/grade.vue';
+import gpa from '../components/gpa.vue';
+import final from '../components/final.vue';
 
 
   export default 
@@ -15,7 +15,7 @@ import Final from '../components/final.vue';
             finalvis:false,
         };
     },
-    components: { Grade, Gpa, Final }
+    components: { grade,gpa,final}
   };
 </script>
 
@@ -42,17 +42,17 @@ import Final from '../components/final.vue';
   </ul>
 
   <div v-show="gradevis">
-  <Grade/>
   
   
+    <grade/>
   </div>
 
   <div v-show="gpavis">
-    <Gpa/>
+    <gpa/>
   </div>
 
   <div v-show="finalvis">
-    <Final/>
+    <final/>
   </div>
 
 </div>
