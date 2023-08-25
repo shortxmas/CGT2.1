@@ -1,7 +1,7 @@
 <script>
 
 
-// import grade from '../components/grade.vue';
+import grade from '../components/grade.vue';
 import gpa from '../components/gpa.vue';
 import final from '../components/final.vue';
 
@@ -15,7 +15,7 @@ import final from '../components/final.vue';
             finalvis:false,
         };
     },
-    components: {gpa,final}
+    components: { grade,gpa,final}
   };
 </script>
 
@@ -44,7 +44,7 @@ import final from '../components/final.vue';
   <div v-show="gradevis">
   
   
-    <!-- <grade/> -->
+    <grade/>
   </div>
 
   <div v-show="gpavis">
