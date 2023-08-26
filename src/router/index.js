@@ -10,7 +10,7 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView
-      meta{
+      meta: {
       title:'Grade Tools'
 
       }  
@@ -28,7 +28,7 @@ const router = createRouter({
       name: 'contact',
       component: contactview
       // component: contactview
-      meta{
+      meta: {
       title:'Grade Tools'
 
       }  
