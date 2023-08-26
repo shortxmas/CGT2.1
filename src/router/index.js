@@ -10,6 +10,10 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView
+      meta{
+      title:'Grade Tools'
+
+      }  
     },
     {
       path: '/about',
@@ -24,9 +28,18 @@ const router = createRouter({
       name: 'contact',
       component: contactview
       // component: contactview
+      meta{
+      title:'Grade Tools'
+
+      }  
     }
     
   ]
 })
+
+router.beforeEach((to, from) => {
+  document.title = to.meta?.title ?? 'Default Title'
+})
+
 
 export default router;
