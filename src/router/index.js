@@ -11,7 +11,7 @@ const router = createRouter({
       name: 'home',
       component: HomeView,
       meta: {
-      title:'Grade Tools'
+      title:'Home'
 
       }  
     },
@@ -29,7 +29,7 @@ const router = createRouter({
       component: contactview,
       // component: contactview
       meta: {
-      title:'Grade Tools'
+      title:'Contact'
 
       }  
     }
